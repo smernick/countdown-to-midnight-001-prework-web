@@ -3,10 +3,9 @@ def countdown(number)
     puts "#{number} SECOND(S)!"
     number -= 1 # creates a countdown that subtracts one each iteration.
   end
-puts "HAPPY NEW YEAR!"
+  puts "HAPPY NEW YEAR!"
 end
 
-countdown(10)
 
 def countdown_with_sleep(number)
   while number > 0
@@ -14,7 +13,6 @@ def countdown_with_sleep(number)
     number -= 1
     sleep 1 #tells method to sleep / wait a second between each loop to make the countodwn to midmight more accurate
   end
-puts "HAPPY NEW YEAR!"
+  puts "HAPPY NEW YEAR!"
 end
 
-countdown_with_sleep(10)
